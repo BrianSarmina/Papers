@@ -1,0 +1,1 @@
+In this folder is all the information related to the QFI matrices employed for the paper "Exploring Entanglement and Parameter Sensitivity in QAOA through Quantum Fisher Information" date 12/06/2025.
