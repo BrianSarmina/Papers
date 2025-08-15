@@ -11,8 +11,11 @@ Original file is located at
 import numpy as np
 import random
 import pickle
+import itertools
 from itertools import product
 import qiskit
+from collections import Counter
+from scipy.spatial.distance import jensenshannon
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, transpile
 from qiskit_aer import AerSimulator
 from qiskit.visualization import plot_histogram, plot_bloch_multivector
@@ -435,12 +438,6 @@ plt.grid(axis='y')
 plt.savefig('hamming_real_experiments.eps', format='eps', bbox_inches='tight')
 plt.show()
 
-# -------------------------------------------------------------
-# 0.  imports (add if missing)
-# -------------------------------------------------------------
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.spatial.distance import jensenshannon
 
 # -------------------------------------------------------------
 # 1.  helper: counts  →  probability vector on common alphabet
@@ -1035,10 +1032,6 @@ counts_x_sxx_real = pickle.load(pick_read_6)
 
 # output7 = open('X_sXX_real_results_sher.pkl', 'wb')
 # pickle.dump(counts_x_sxx_real, output7)
-
-import itertools
-from collections import Counter
-from scipy.spatial.distance import jensenshannon
 
 # ------------ helper: overlap fidelity ------------------------------
 def avg_hamming(counts, shots, gs):
