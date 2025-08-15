@@ -1,1 +1,1 @@
-This forlder contain the codes used to implement the RFOX (Rotated-Field Oscillatory eXchange) quantum algorithm, alogn side the generated results for the simulations, raw graphs and histograms.
+This forlder contain the codes used to implement the RFOX (Rotated-Field Oscillatory eXchange) quantum algorithm, alogn side the generated results for the simulations, raw graphs and histograms. SOME OF THE CODE IS IN SPANISH/ENGLISH, further questions can be addressed by email: ing.brian.sarmina@gmail.com .
