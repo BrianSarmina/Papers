@@ -1,4 +1,6 @@
-Q-PIPE: Quantum-Gray Phase Injection for Pixel EncodingThis repository contains the source code, datasets, and high-resolution benchmark images for the Q-PIPE algorithm, as presented in our paper. Q-PIPE is a novel hybrid quantum-classical algorithmic framework designed to bridge the gap between efficient quantum data representation and active feature extraction for Near-Term Intermediate Scale Quantum (NISQ) devices.
+Q-PIPE: Quantum-Gray Phase Injection for Pixel Encoding
+
+This repository contains the source code, datasets, and high-resolution benchmark images for the Q-PIPE algorithm, as presented in our paper. Q-PIPE is a novel quantum algorithmic framework designed to bridge the gap between efficient quantum data representation and active feature extraction for Near-Term Intermediate Scale Quantum (NISQ) devices.
 
     Overview:
 Loading classical high-dimensional data into quantum states is a fundamental bottleneck in Quantum Image Processing (QIMP) and Quantum Machine Learning (QML). Q-PIPE conceptualizes the state preparation phase as a parameter estimation problem. By exploiting the quantum phase kickback mechanism and optimizing the spatial traversal via a Gray-code sequence, Q-PIPE injects continuous intensity values into the relative phase and natively projects them into the computational basis.
