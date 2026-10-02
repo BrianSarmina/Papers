@@ -25,10 +25,11 @@ quantum edge detection (QED): directional finite differences and a Sobel-type ma
 
     Repository structure
 Codes/
-  q_pipe_base.py                        exploratory notebook export (PennyLane)
-  q_pipe_for_quantum_edge_detection.py  ideal QED benchmarks: datasets, estimation-register depth,
-                                        image resolution (PennyLane)
-  Q_PIPE_different_prob_thresholds.py   probability-threshold sweep (PennyLane)
+  q_pipe_base.py                        --exploratory notebook export (PennyLane)
+  q_pipe_for_quantum_edge_detection.py  --ideal QED benchmarks: datasets, estimation-register depth,
+                                        --image resolution (PennyLane)
+  Q_PIPE_different_prob_thresholds.py   --probability-threshold sweep (PennyLane)
+  Q_PIPE_UCR_Quantum_Edge_Detection_Pennylane.ipynb    --Optimized version using UCR (Pennylane).
   Noisy_Simulations/
     qpipe_noisy_simulation.py           noisy QED with the C^nP or UCR oracle (Qiskit)
     plot_noisy_metrics.py               noisy-simulation metrics figure and table rows
